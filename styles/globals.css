@@ -20,7 +20,7 @@
   html,
   body {
     @apply p-0 bg-cream  w-screen overflow-x-hidden;
-    cursor: url('/img/coco-head.png'), default;
+    cursor: url('/img/Gryffindor.png'), default;
   }
 
   * {
@@ -74,7 +74,7 @@
   }
 
   .coco {
-    cursor: url('/img/coco-head.png'), default;
+    cursor: url('/img/Gryffindor.png'), default;
   }
   input[type='number']::-webkit-inner-spin-button,
   input[type='number']::-webkit-outer-spin-button {

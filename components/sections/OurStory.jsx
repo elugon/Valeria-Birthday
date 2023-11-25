@@ -18,19 +18,18 @@ function OurStory({}) {
               'tracking-wide lg:tracking-wider align-top block md:inline font-semibold max-w-md mt-0 text-5xl sm:text-5xl md:text-6xl 2xl:text-7xl 2xl:max-w-3xl leading-none md:mb-12 2xl:mb-20 pt-0 text-cream-light',
             )}
           >
-            Our Story
+            Quien soy?
           </H2>
         </div>
 
         <div className='mt-12'>
           <p className='text-cream-light max-w-2xl'>
-            Read about how we met, when we knew the other person was the one, and how we ended up
-            getting married on a Monday.
+            Tienes ganas de saber de mi?, entra y descubreme un poco, pero recuerda, la curiosidad mato al gato.
           </p>
           <Link href={'/story'} passHref>
             <a>
               <div className='mt-16 text-cream-light max-w-xs hover:scale-99 duration-300 cursor-pointer'>
-                <span className='italic '>Read More</span>
+                <span className='italic '>No hagas click aqui</span>
                 <svg
                   id='a966fc3c-c7a0-40ed-b540-d6b7a9c610ea'
                   xmlns='http://www.w3.org/2000/svg'

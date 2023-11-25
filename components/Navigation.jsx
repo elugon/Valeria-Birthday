@@ -80,7 +80,7 @@ function Navigation() {
                     navItems.current[0] = element
                   }}
                 >
-                  01. Our Story
+                  01. Quien Soy
                 </li>
               </Link>
               <Link href={'/#details'} passHref>
@@ -91,10 +91,10 @@ function Navigation() {
                     navItems.current[1] = element
                   }}
                 >
-                  02. Event Details
+                  02. Detalles del Evento
                 </li>
               </Link>
-              <Link href={'/#rsvp'} passHref>
+              <Link href={'/#Rules'} passHref>
                 <li
                   className='nav-item opacity-0 cursor-pointer text-xl tracking-widest pb-1 duration-300 not-italic hover:italic border-b-2 border-b-black hover:border-b-cream '
                   onClick={() => handleHamToggle(false)}
@@ -102,51 +102,7 @@ function Navigation() {
                     navItems.current[2] = element
                   }}
                 >
-                  03. RSVP
-                </li>
-              </Link>
-              <Link href={'/#answers'} passHref>
-                <li
-                  className='nav-item opacity-0 cursor-pointer text-xl tracking-widest pb-1 duration-300 not-italic hover:italic border-b-2 border-b-black hover:border-b-cream '
-                  onClick={() => handleHamToggle(false)}
-                  ref={(element) => {
-                    navItems.current[3] = element
-                  }}
-                >
-                  04. Answers
-                </li>
-              </Link>
-              <Link href={'/#registry'} passHref>
-                <li
-                  className='nav-item opacity-0 cursor-pointer text-xl tracking-widest pb-1 duration-300 not-italic hover:italic border-b-2 border-b-black hover:border-b-cream '
-                  onClick={() => handleHamToggle(false)}
-                  ref={(element) => {
-                    navItems.current[4] = element
-                  }}
-                >
-                  05. Registry
-                </li>
-              </Link>
-              <Link href={'/#memories'} passHref>
-                <li
-                  className='nav-item opacity-0 cursor-pointer text-xl tracking-widest pb-1 duration-300 not-italic hover:italic border-b-2 border-b-black hover:border-b-cream '
-                  onClick={() => handleHamToggle(false)}
-                  ref={(element) => {
-                    navItems.current[5] = element
-                  }}
-                >
-                  06. Memories
-                </li>
-              </Link>
-              <Link href={'/#playlist'} passHref>
-                <li
-                  className='nav-item opacity-0 cursor-pointer text-xl tracking-widest pb-1 duration-300 not-italic hover:italic border-b-2 border-b-black hover:border-b-cream '
-                  onClick={() => handleHamToggle(false)}
-                  ref={(element) => {
-                    navItems.current[6] = element
-                  }}
-                >
-                  07. Playlist
+                  03. Normas
                 </li>
               </Link>
             </ul>

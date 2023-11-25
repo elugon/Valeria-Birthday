@@ -1,8 +1,10 @@
 const React = require('react')
 const cn = require('classnames')
+const withVideos = require('next-videos')
 module.exports = {
   reactStrictMode: true,
   productionBrowserSourceMaps: true,
+  withVideos:true,
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
